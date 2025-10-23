@@ -1,0 +1,39 @@
+{
+  "trendingSongs": [
+    {
+      "id": 1,
+      "title": "Rahein Na Rahein Hum",
+      "artist": "Sachin–Jigar, Soumyadeep Sarkar",
+      "image": "src/assets/imgs/song1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Oorum Blood - From Dude",
+      "artist": "Sai Abhyankar, Paal Dabba",
+      "image": "src/assets/imgs/song2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tumse Behtar",
+      "artist": "Tanishk Bagchi, Arijit Singh",
+      "image": "src/assets/imgs/song3.jpg"
+    }
+  ],
+  "popularArtists": [
+    {
+      "id": 1,
+      "name": "Arijit Singh",
+      "image": "src/assets/imgs/artist1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Darshan Raval",
+      "image": "src/assets/imgs/artist2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Shreya Ghoshal",
+      "image": "src/assets/imgs/artist3.jpg"
+    }
+  ]
+}
