@@ -1,5 +1,174 @@
-body, html {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
   background-color: #000;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.nav-bar {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  /* z-index: 1000; */
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+}
+
+.logo {
+  height: 33px;
+  padding-right: 10px;
+}
+
+.circle {
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+  background-color: rgb(55, 54, 55);
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle img {
+  height: 28px;
+  padding: 2px;
+}
+
+.search-box {
+  border: 1px solid rgb(75, 75, 75);
+  width: 450px;
+  max-width: 100%;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 4px;
+  margin-left: 15px;
+  background-color: rgb(55, 54, 55);
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.search-box:hover {
+  border-color: #b3b3b3;
+}
+
+.search-box:focus-within {
+  border: 1px solid #1db954;
+  box-shadow: 0 0 5px #1db954;
+}
+
+
+.search-icon,
+.clear-icon {
+  height: 20px;
+  width: 20px;
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+}
+
+.search-icon {
+  margin-right: 10px;
+}
+
+.clear-icon {
+  margin-left: 10px;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  font-size: large;
+  color: aliceblue;
+  outline: none;
+  width: 100%;
+}
+
+.shortcut {
+  display: flex;
+  gap: 4px;
+  position: absolute;
+  right: 120px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.key {
+  background-color: #181818;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #b3b3b3;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.search-box:hover .shortcut {
+  opacity: 1;
+}
+
+.search-box:focus-within .shortcut {
+  opacity: 0;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 60px;
+  font-size: 16px;
+  padding: 18px;
+}
+.nav-right a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  margin-left: 15px;
+}
+.nav-right a:hover{
+  opacity: 1;
+}
+.nav-right span{
+  color: #fff;
+  margin-left: 15px;
+  margin: 0 -5px; 
+  font-weight: 300;
+}
+.nav-right a:nth-child(3){
+  margin-right:25px;
+}
+.login-btn{
+  background-color: #fff; 
+    color: #000; 
+    text-decoration: none;
+    font-weight: 700; 
+    padding: 10px 25px;
+    border-radius: 500px;     
+    transition: transform 0.2s, background-color 0.2s;
+    border: none;
+}
+.login-btn:hover{
+  background-color: #f6f6f6;
+    transform: scale(1.04);
+}
+/* nav bar ends hereee */
