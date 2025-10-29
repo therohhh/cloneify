@@ -1,39 +1,53 @@
 {
   "trendingSongs": [
-    {
-      "id": 1,
-      "title": "Rahein Na Rahein Hum",
-      "artist": "Sachin–Jigar, Soumyadeep Sarkar",
-      "image": "src/assets/imgs/song1.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Oorum Blood - From Dude",
-      "artist": "Sai Abhyankar, Paal Dabba",
-      "image": "src/assets/imgs/song2.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Tumse Behtar",
-      "artist": "Tanishk Bagchi, Arijit Singh",
-      "image": "src/assets/imgs/song3.jpg"
-    }
+    { "title": "Calm Down", "artist": "Rema", "image": "assets/trending1.jpg" },
+    { "title": "Flowers", "artist": "Miley Cyrus", "image": "assets/trending2.jpg" },
+    { "title": "Blinding Lights", "artist": "The Weeknd", "image": "assets/trending3.jpg" },
+    { "title": "Shape of You", "artist": "Ed Sheeran", "image": "assets/trending4.jpg" },
+    { "title": "Dance Monkey", "artist": "Tones and I", "image": "assets/trending1.jpg" },
+    { "title": "Levitating", "artist": "Dua Lipa", "image": "assets/trending2.jpg" },
+    { "title": "Peaches", "artist": "Justin Bieber", "image": "assets/trending3.jpg" },
+    { "title": "Stay", "artist": "The Kid LAROI", "image": "assets/trending4.jpg" },
+    { "title": "Heat Waves", "artist": "Glass Animals", "image": "assets/trending2.jpg" },
+    { "title": "Industry Baby", "artist": "Lil Nas X", "image": "assets/trending1.jpg" }
   ],
+
   "popularArtists": [
-    {
-      "id": 1,
-      "name": "Arijit Singh",
-      "image": "src/assets/imgs/artist1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Darshan Raval",
-      "image": "src/assets/imgs/artist2.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Shreya Ghoshal",
-      "image": "src/assets/imgs/artist3.jpg"
-    }
+    { "name": "Arijit Singh", "image": "assets/artist1.jpg" },
+    { "name": "The Weeknd", "image": "assets/artist2.jpg" },
+    { "name": "Taylor Swift", "image": "assets/artist3.jpg" },
+    { "name": "Drake", "image": "assets/artist4.jpg" },
+    { "name": "Dua Lipa", "image": "assets/artist2.jpg" },
+    { "name": "Ed Sheeran", "image": "assets/artist3.jpg" },
+    { "name": "Billie Eilish", "image": "assets/artist1.jpg" },
+    { "name": "Post Malone", "image": "assets/artist4.jpg" },
+    { "name": "Kanye West", "image": "assets/artist3.jpg" },
+    { "name": "Shawn Mendes", "image": "assets/artist2.jpg" }
+  ],
+
+  "albums": [
+    { "title": "After Hours", "artist": "The Weeknd", "image": "assets/album1.jpg" },
+    { "title": "Midnights", "artist": "Taylor Swift", "image": "assets/album2.jpg" },
+    { "title": "Divide", "artist": "Ed Sheeran", "image": "assets/album3.jpg" },
+    { "title": "Scorpion", "artist": "Drake", "image": "assets/album4.jpg" },
+    { "title": "Future Nostalgia", "artist": "Dua Lipa", "image": "assets/album1.jpg" },
+    { "title": "Justice", "artist": "Justin Bieber", "image": "assets/album2.jpg" },
+    { "title": "Happier Than Ever", "artist": "Billie Eilish", "image": "assets/album3.jpg" },
+    { "title": "Hollywood's Bleeding", "artist": "Post Malone", "image": "assets/album4.jpg" },
+    { "title": "Starboy", "artist": "The Weeknd", "image": "assets/album2.jpg" },
+    { "title": "Red", "artist": "Taylor Swift", "image": "assets/album1.jpg" }
+  ],
+
+  "radio": [
+    { "title": "Coldplay Radio", "image": "assets/radio1.jpg" },
+    { "title": "Bollywood Hits", "image": "assets/radio2.jpg" },
+    { "title": "Pop Mix", "image": "assets/radio3.jpg" },
+    { "title": "Rap Caviar", "image": "assets/radio4.jpg" },
+    { "title": "Workout Beats", "image": "assets/radio1.jpg" },
+    { "title": "Chill Vibes", "image": "assets/radio2.jpg" },
+    { "title": "Party Mode", "image": "assets/radio3.jpg" },
+    { "title": "Retro Classics", "image": "assets/radio4.jpg" },
+    { "title": "Focus Flow", "image": "assets/radio1.jpg" },
+    { "title": "Deep House", "image": "assets/radio2.jpg" }
   ]
 }
