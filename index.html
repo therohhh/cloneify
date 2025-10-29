@@ -37,11 +37,11 @@
 
   <main class="main-container">
     <div class="left-content">
+      <div id="ltbar">
+        <h3>Your Library</h3>
+        <p>+</p>
+      </div>
       <div class="left-top">
-        <div id="ltbar">
-          <h3>Your Library</h3>
-          <p>+</p>
-        </div>
         <div id="ltcontent">
           <div id="lt1">
             <p>Create your first playlist</p>
@@ -60,83 +60,95 @@
         </div>
       </div>
       <div class="left-bottom">
-        <a href="#">Legal</a>
-        <a href="#">Safety&PrivacyCenter</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">About Ads</a>
-        <a href="#">Accessibility</a>
-        <a href="#">Cookies</a>
-        <button class="lang-btn">English</button>
+        <div class="row">
+          <a href="#">Legal</a>
+          <a href="#">Safety & Privacy Center</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="row">
+          <a href="#">About Ads</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Cookies</a>
+        </div>
+        <div class="lang-btn-con"><button class="lang-btn">English</button></div>
       </div>
     </div>
-    <div class="Right-content">
+    <div class="right-content">
       <div class="content">
-        <h2>Trending songs</h2>
-        <div class="cards"></div>
-        <div class="section artists">
-          <h2>Popular artists</h2>
-          <div class="artist-cards"></div>
-        </div>
-        <div class="Popular">
-          <h2>Popular albums and singles</h2>
-          <div class="album-cards"></div>
-        </div>
-        <div class="radio">
-          <h2>Popular radio</h2>
-          <div class="radio-cards"></div>
-        </div>
+        <section class="section trending">
+          <a>Trending Songs</a>
+          <div class="cards" id="trending-cards">
+          </div>
+        </section>
+
+        <section class="section artists">
+          <a>Popular Artists</a>
+          <div class="cards" id="artist-cards"></div>
+        </section>
+
+        <section class="section albums">
+          <a>Popular Albums and Singles</a>
+          <div class="cards" id="album-cards"></div>
+        </section>
+
+        <section class="section radio">
+          <a>Popular Radio</a>
+          <div class="cards" id="radio-cards"></div>
+        </section>
       </div>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">For the Record</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Communities</h3>
+            <ul>
+              <li><a href="#">For Artists</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Vendors</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Free Mobile App</a></li>
+              <li><a href="#">Popular by Country</a></li>
+              <li><a href="#">Import your music</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Spotify Plans</h3>
+            <ul>
+              <li><a href="#">Premium Individual</a></li>
+              <li><a href="#">Premium Duo</a></li>
+              <li><a href="#">Premium Family</a></li>
+              <li><a href="#">Premium Student</a></li>
+              <li><a href="#">Spotify Free</a></li>
+            </ul>
+          </div>
+          <div class="footer-socials">
+            <a href="#"><img src="assets/insta.svg" alt="Instagram"></a>
+            <a href="#"><img src="assets/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="assets/facebook.svg" alt="Facebook"></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Spotify AB</p>
+        </div>
+      </footer>
     </div>
   </main>
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-column">
-        <h3>Company</h3>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">For the Record</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Communities</h3>
-        <ul>
-          <li><a href="#">For Artists</a></li>
-          <li><a href="#">Developers</a></li>
-          <li><a href="#">Advertising</a></li>
-          <li><a href="#">Investors</a></li>
-          <li><a href="#">Vendors</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Useful Links</h3>
-        <ul>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Free Mobile App</a></li>
-          <li><a href="#">Popular by Country</a></li>
-          <li><a href="#">Import your music</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Spotify Plans</h3>
-        <ul>
-          <li><a href="#">Premium Individual</a></li>
-          <li><a href="#">Premium Duo</a></li>
-          <li><a href="#">Premium Family</a></li>
-          <li><a href="#">Premium Student</a></li>
-          <li><a href="#">Spotify Free</a></li>
-        </ul>
-      </div>
-      <div class="footer-socials">
-        <a href="#"><img src="assets/insta.svg" alt="Instagram"></a>
-        <a href="#"><img src="assets/twitter.svg" alt="Twitter"></a>
-        <a href="#"><img src="assets/facebook.svg" alt="Facebook"></a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 Spotify AB</p>
-    </div>
-  </footer>
+
 
 </body>
 
