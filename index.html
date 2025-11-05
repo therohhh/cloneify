@@ -149,6 +149,33 @@
       </footer>
     </div>
   </main>
+  <div class="music-player">
+  <div class="player-left">
+    <img src="assets/trending1.jpg" alt="Now Playing" id="player-thumbnail">
+    <div class="track-info">
+      <h4 id="player-title">Nippulaa Swasa</h4>
+      <p id="player-artist">Swasa Ga</p>
+    </div>
+  </div>
+
+  <div class="player-center">
+    <div class="controls">
+      <button id="prev-btn"><img src="assets/icons8-previous-30.png" alt="Previous"></button>
+      <button id="play-pause-btn"><img src="assets/icons8-play-30.png" alt="Play"></button>
+      <button id="next-btn"><img src="assets/icons8-next-30.png" alt="Next"></button>
+    </div>
+    <div class="progress-bar">
+      <span id="current-time">0:00</span>
+      <input type="range" id="seek-bar" value="0" min="0" max="100">
+      <span id="total-time">3:30</span>
+    </div>
+  </div>
+
+  <div class="player-right">
+    <img src="assets/icons8-volume-30.png" alt="Volume">
+    <input type="range" id="volume-bar" min="0" max="1" step="0.01" value="1">
+  </div>
+</div>
 
 
 </body>
